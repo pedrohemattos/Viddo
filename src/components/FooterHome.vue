@@ -1,8 +1,8 @@
 <template>
-    <footer class="mt-48 mb-10">
+    <footer class="mt-32 sm:mt-48 mb-10">
         <div class="flex flex-col items-center">
-            <div class="flex gap-32">
-                <img src="../assets/viddo-logo.jpeg" class="h-24 self-start"/>
+            <div class="flex gap-16 sm:gap-8 md:gap-32 sm:px-10 ">
+                <img src="../assets/LOGO VIDDO 2.png" class="hidden xl:block h-14 self-start"/>
                 <div class="flex flex-col">
                     <h1 class="font-bold mb-2">Sobre</h1>
                     <span class="cursor-pointer hover:text-blue-800">Quem Somos</span>
@@ -16,7 +16,7 @@
                 </div>
                 <div class="flex flex-col gap-4">
                     <h1 class="font-bold">Faça Download do App do Criador de Conteúdo</h1>
-                    <div class="flex gap-6">
+                    <div class="flex flex-col sm:flex-row gap-6">
                         <img src="../assets/apple-store-home-footer.png" class="w-36 cursor-pointer"/>
                         <img src="../assets/google-play-home-footer.png" class="w-36 cursor-pointer"/>
                     </div>
