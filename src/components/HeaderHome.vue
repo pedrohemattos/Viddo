@@ -17,10 +17,12 @@ import { ref } from 'vue';
                 <span class="hidden md:block text-lg cursor-pointer font-semibold text-black hover:text-sky-600 delay-100">
                     Vire um Criador
                 </span>
-                <span class="hidden md:block text-lg cursor-pointer font-semibold text-black hover:text-sky-600 delay-100 pr-8 pl-12">
-                    Login
-                </span>
-                <router-link to="/login" class="hidden md:block">
+                <router-link to="/admin">
+                    <a class="hidden md:block text-lg cursor-pointer font-semibold text-black hover:text-sky-600 delay-100 pr-8 pl-12">
+                        Login
+                    </a>
+                </router-link>
+                <router-link to="/" class="hidden md:block">
                     <a class="bg-sky-500 hover:bg-sky-400 delay-75 px-4 py-3 rounded-lg text-white font-bold text-sm">
                         COMECE AGORA
                     </a>
